@@ -1,3 +1,3 @@
 # prixba
 
-**Pour apporter de nouvelles fonctionaliées mets clone `dev` et `push`**
+**Pour apporter de nouvelles fonctionaliées clone `dev` et `push`**
