@@ -18,5 +18,6 @@
   "homepage": "https://github.com/Dsaquel/prixba#readme",
   "devDependencies": {
     "eslint": "^8.27.0"
+
   }
 }
