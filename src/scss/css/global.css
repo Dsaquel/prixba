@@ -1,16 +1,16 @@
+@import './normalize.css';
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 .desktop {
   display: none !important;
 }
 
 .title-bar {
-  background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 7px;
   padding: 14px 22px;
 }
-
 .title-bar .right {
   max-width: 60%;
   text-align: right;
@@ -21,7 +21,6 @@
   font-size: 14px;
   padding: 30px 30px;
 }
-
 .navbar .right {
   display: grid;
   grid-template-columns: repeat(auto-fit, 150px);
@@ -29,21 +28,17 @@
   align-items: center;
   justify-items: center;
 }
-
-.navbar .right>* {
+.navbar .right > * {
   width: 135px;
   margin: 5px 0;
 }
-
 .navbar .right img {
   width: 40px;
 }
-
 .navbar a {
   color: white;
   text-decoration: none;
 }
-
 .navbar .link img {
   width: 15px;
 }
@@ -52,11 +47,9 @@
   font-weight: 600;
   margin: 100px 0 50px 30px;
 }
-
 .section-title h2 {
   margin-bottom: 0;
 }
-
 .section-title h3 {
   margin-top: 0;
   color: #2c3e50;
@@ -76,19 +69,16 @@
   flex-direction: column;
   justify-content: center;
 }
-
 .product-card img {
   max-width: 300px;
   width: 100%;
 }
-
 .product-card .item {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   margin-top: 10px;
 }
-
 .product-card .item .item-left .item-title {
   margin: 5px 0;
 }
@@ -99,7 +89,6 @@
   gap: 10px;
   justify-content: center;
 }
-
 .category-cards .category-card {
   width: 150px;
   height: 150px;
@@ -110,12 +99,10 @@
   justify-content: center;
   color: white;
 }
-
 .category-cards .category-card h4 {
   margin: 10px 0 0 0;
   font-size: 1.2rem;
 }
-
 .category-cards .category-card img {
   width: 50px;
 }
@@ -125,7 +112,6 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-
 .choice-cards h3 {
   margin-bottom: 60px;
 }
@@ -143,8 +129,10 @@ html {
 body {
   background: #f6f7fc;
   -webkit-font-smoothing: antialiased;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   color: #2c3e50;
+  margin: 0;
 }
 
 h1,
@@ -159,6 +147,22 @@ h2 {
 
 h3 {
   font-size: 1.3rem;
+}
+
+.bg-grey {
+  background-color: #f6f7fc;
+}
+
+.bg-blue {
+  background-color: #2d4059;
+}
+
+.red {
+  color: #ea5455;
+}
+
+.green {
+  color: #42CC58;
 }
 
 /*# sourceMappingURL=global.css.map */
