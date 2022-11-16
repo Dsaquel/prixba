@@ -1,0 +1,33 @@
+@import './fonts.css';
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #f6f7fc;
+  -webkit-font-smoothing: antialiased;
+  font-size: var(14px);
+  color: #2c3e50;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+/*# sourceMappingURL=global.css.map */
