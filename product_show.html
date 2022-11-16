@@ -1,154 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PrixBa</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div id="title-bar grey">
-            <div class="logo left">
-                <img src="./assets/icons/logo.svg" />
-                <h1>PrixBa</h1>
-                <div class="name desktop"></div>
-            </div>
-
-            <div class="right">
-                <div class="title"></div>
-                <div class="info-steps desktop">
-                    <div class="step">
-                        <div class="step-number">1</div>
-                        <p>Choix et commande des articles</p>
-                    </div>
-                    <div class="step">
-                        <div class="step-number">2</div>
-                        <p>Retrait des articles</p>
-                    </div>
-                    <div class="step">
-                        <div class="step-number">3</div>
-                        <p>Paiement des articles</p>
-                    </div>
-                </div>
-            </div>
+      <div id="title-bar grey">
+        <div class="logo left">
+          <img src="./assets/icons/logo.svg" />
+          <div class="name desktop">PrixBa</div>
         </div>
-        <img src="./assets/icons/chevron-down.svg" />
-        <img src="./assets/icons/lightbulb.svg" />
-        <div class="navbar blue">
-            <div class="left desktop ">
-                <select>
-                    <option value="bricolage"></option>
-                    <option value="multimédia"></option>
-                    <option value="cuisine"></option>
-                    <option value="Entretien"></option>
-                    <option value="Outillage"></option>
-                </select>
 
-                <input type="text" name="" id="" />
-
-                <button type="button" class="submit red">rechercher</button>
+        <div class="right">
+          <h1>Tous vos besoins à petits prix dans la métropole Lilloise</h1>
+          <div class="info-steps desktop">
+            <div class="step">
+              <div class="step-number">1</div>
+              <p>Choix et commande des articles</p>
             </div>
-
-            <div class="right">
-                <a class="link" href="">Catalogue</a>
-                <a class="link" href="">Questions fréquentes</a>
-                <div class="link">Connexion
-                    <span><img src="./assets/icons/chevron-down.svg" /></span>
-                </div>
-                <img src="./assets/icons/shopping-cart.svg" />
+            <div class="step">
+              <div class="step-number">2</div>
+              <p>Retrait des articles</p>
             </div>
+            <div class="step">
+              <div class="step-number">3</div>
+              <p>Paiement des articles</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/icons/chevron-down.svg" />
+      <img src="./assets/icons/lightbulb.svg" />
+      <div class="navbar blue">
+        <div class="left desktop">
+          <select>
+            <option value="bricolage">bricolage</option>
+            <option value="multimédia">multimédia</option>
+            <option value="cuisine">cuisine</option>
+            <option value="Entretien">Entretien</option>
+            <option value="Outillage">Outillage</option>
+          </select>
+
+          <input type="text" name="" id="" />
+
+          <button type="button" class="submit red">rechercher</button>
+        </div>
+
+        <div class="right">
+          <a class="link" href="">Catalogue</a>
+          <a class="link" href="">Questions fréquentes</a>
+          <div class="link">
+            Connexion
+            <span><img src="./assets/icons/chevron-down.svg" /></span>
+          </div>
+          <img src="./assets/icons/shopping-cart.svg" />
+        </div>
+      </div>
     </header>
 
     <main>
-        <div id="product">
-            <img src="" alt="">
-            <div id="item-detail">
-                <div class="item-title">Marteau</div>
-                <div class="item-price">1€</div>
-                <div id="desc">
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
-                        duis enim velit mollit. </p>
-                </div>
-                <div id="option">
-                    <div id="counter">
-                        <div id="add">+</div>
-                        <div id="item-number">2</div>
-                        <div id="less">-</div>
-                    </div>
-                    <a href="">Ajouter au panier</a>
-                    <a href=""><img src="./assets/icons/heart.svg" alt=""></a>
-                </div>
+      <div id="product">
+        <img src="" alt="" />
+        <div id="item-detail">
+          <div class="item-title">Marteau</div>
+          <div class="item-price">1€</div>
+          <div id="desc">
+            <p>
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+            </p>
+          </div>
+          <div id="option">
+            <div id="counter">
+              <div id="add">+</div>
+              <div id="item-number">2</div>
+              <div id="less">-</div>
             </div>
-            <div id="other-images">
-                <img src="" alt="">
-                <img src="" alt="">
-            </div>
+            <a href="">Ajouter au panier</a>
+            <a href=""><img src="./assets/icons/heart.svg" alt="" /></a>
+          </div>
         </div>
+        <div id="other-images">
+          <img src="" alt="" />
+          <img src="" alt="" />
+        </div>
+      </div>
     </main>
 
     <footer>
-
-        <div class="top blue">
-            <img src="./assets/icons/price-tag.svg" alt="">
-            <div class="top-text">
-                <div class="title">
-                    Articles à petit prix
-                </div>
-                <div class="desc">
-                    La majorité des produits sont à 1 euro
-                </div>
-            </div>
-
-            <div class="top-text">
-                <div class="title">
-                    Achats sans soucis
-                </div>
-                <div class="desc">
-                    Chaque commande est fournie main à main
-                </div>
-            </div>
-
-            <div class="top-text">
-                <div class="title">
-                    Paiement sécurisé
-                </div>
-                <div class="desc">
-                    Payez sans vous soucier lors du retrait
-                </div>
-            </div>
-
-            <div class="top-text">
-                <div class="title">
-                    Livraison Lilloise
-                </div>
-                <div class="desc">
-                    Ce que vous voulez, préparé pour les lillois et les alentours
-                </div>
-            </div>
+      <div class="top blue">
+        <img src="./assets/icons/price-tag.svg" alt="" />
+        <div class="top-text">
+          <h2>Articles à petit prix</h2>
+          <p class="desc">La majorité des produits sont à 1 euro</p>
         </div>
 
-        <div class="mid">
-            <div class="left">
-                <a href="">Accueil</a>
-                <a href="">Catalogue</a>
-                <a href="">Questions fréquentes</a>
-            </div>
-            <div class="right">
-                <a href="">Première visite</a>
-                <a href="">Livraison retrait</a>
-                <a href="">Contact</a>
-            </div>
+        <div class="top-text">
+          <h2>Achats sans soucis</h2>
+          <p class="desc">Chaque commande est fournie main à main</p>
         </div>
 
-        <div class="bottom blue">
-            <a href="">Mention légales |</a>
-            <a href=""> Conditions générales d'utilisation et de vente</a>
+        <div class="top-text">
+          <h2>Paiement sécurisé</h2>
+          <p class="desc">Payez sans vous soucier lors du retrait</p>
         </div>
 
+        <div class="top-text">
+          <h2>Livraison Lilloise</h2>
+          <p class="desc">
+            Ce que vous voulez, préparé pour les lillois et les alentours
+          </p>
+        </div>
+      </div>
+
+      <div class="mid">
+        <div class="left">
+          <a href="">Accueil</a>
+          <a href="">Catalogue</a>
+          <a href="">Questions fréquentes</a>
+        </div>
+        <div class="right">
+          <a href="">Première visite</a>
+          <a href="">Livraison retrait</a>
+          <a href="">Contact</a>
+        </div>
+      </div>
+
+      <div class="bottom blue">
+        <a href="">Mention légales |</a>
+        <a href=""> Conditions générales d'utilisation et de vente</a>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
