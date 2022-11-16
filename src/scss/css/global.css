@@ -1,0 +1,149 @@
+@import './fonts.css';
+.desktop {
+  display: none !important;
+}
+
+.title-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 7px;
+  padding: 14px 22px;
+}
+.title-bar .right {
+  max-width: 60%;
+  text-align: right;
+}
+
+.navbar {
+  color: white;
+  font-size: 14px;
+  padding: 30px 30px;
+}
+.navbar .right {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 150px);
+  justify-content: space-evenly;
+  align-items: center;
+  justify-items: center;
+}
+.navbar .right > * {
+  width: 135px;
+  margin: 5px 0;
+}
+.navbar .right img {
+  width: 40px;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+.navbar .link img {
+  width: 15px;
+}
+
+.section-title {
+  font-weight: 600;
+  margin: 100px 0 50px 30px;
+}
+.section-title h2 {
+  margin-bottom: 0;
+}
+.section-title h3 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.section-content {
+  display: flex;
+  align-items: center;
+  margin: 0 10px;
+}
+
+.product-card {
+  margin: 0 20px;
+  padding: 25px 25px 10px 25px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.product-card img {
+  max-width: 300px;
+  width: 100%;
+}
+.product-card .item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 10px;
+}
+.product-card .item .item-left .item-title {
+  margin: 5px 0;
+}
+
+.category-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 150px);
+  gap: 10px;
+  justify-content: center;
+}
+.category-cards .category-card {
+  width: 150px;
+  height: 150px;
+  border-radius: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.category-cards .category-card h4 {
+  margin: 10px 0 0 0;
+  font-size: 1.2rem;
+}
+.category-cards .category-card img {
+  width: 50px;
+}
+
+.choice-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.choice-cards h3 {
+  margin-bottom: 60px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #f6f7fc;
+  -webkit-font-smoothing: antialiased;
+  font-size: var(14px);
+  color: #2c3e50;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+/*# sourceMappingURL=global.css.map */
