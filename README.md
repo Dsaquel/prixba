@@ -1,3 +1,3 @@
-# prixba
+# Prixba
 
-**Pour apporter de nouvelles fonctionaliées clone `dev` et `push`**
+Online shopping website for Prixba

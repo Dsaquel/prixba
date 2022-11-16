@@ -1,0 +1,36 @@
+@import './fonts.css';
+@import './variables.scss';
+@import './index.scss';
+@import './normalize.css';
+
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: $color-bg;
+  -webkit-font-smoothing: antialiased;
+  font-size: var($font-size);
+  color: #2c3e50;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
