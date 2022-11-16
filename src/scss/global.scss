@@ -1,4 +1,4 @@
-@import './fonts.css';
+// @import './fonts.css';
 @import './variables.scss';
 @import './index.scss';
 
@@ -15,7 +15,7 @@ html {
 body {
   background: $color-bg;
   -webkit-font-smoothing: antialiased;
-  font-size: var($font-size);
+  font-size: $font-size;
   color: #2c3e50;
 }
 
