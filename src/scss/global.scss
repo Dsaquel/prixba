@@ -1,7 +1,8 @@
-@import './fonts.css';
+// @import './fonts.css';
 @import './variables.scss';
 @import './index.scss';
 @import './normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
 html {
@@ -17,8 +18,10 @@ html {
 body {
   background: $color-bg;
   -webkit-font-smoothing: antialiased;
-  font-size: var($font-size);
+  font-family: 'Roboto', sans-serif;
+  font-size: $font-size;
   color: #2c3e50;
+  margin: 0;
 }
 
 h1,
@@ -33,4 +36,20 @@ h2 {
 
 h3 {
   font-size: 1.3rem;
+}
+
+.bg-grey {
+  background-color: $color-bg;
+}
+
+.bg-blue {
+  background-color: $color-blue;
+}
+
+.red {
+  color: $color-red;
+}
+
+.green {
+  color: #42CC58;
 }
