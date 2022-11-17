@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/css/main.css" />
     <title>Document</title>
   </head>
   <body>
     <header>
-      <div id="title-bar grey">
+      <div class="title-bar bg-grey">
         <div class="logo left">
-          <img src="./assets/icons/logo.svg" />
+          <img src="../assets/icons/logo.svg" />
           <div class="name desktop">PrixBa</div>
         </div>
 
@@ -32,9 +33,7 @@
           </div>
         </div>
       </div>
-      <img src="./assets/icons/chevron-down.svg" />
-      <img src="./assets/icons/lightbulb.svg" />
-      <div class="navbar blue">
+      <div class="navbar bg-blue">
         <div class="left desktop">
           <select>
             <option value="bricolage"></option>
@@ -54,9 +53,9 @@
           <a class="link" href="">Questions fréquentes</a>
           <div class="link">
             Connexion
-            <span><img src="./assets/icons/chevron-down.svg" /></span>
+            <span><img src="../assets/icons/down-arrow.svg" /></span>
           </div>
-          <img src="./assets/icons/shopping-cart.svg" />
+          <img src="../assets/icons/shopping-cart.svg" />
         </div>
       </div>
     </header>
@@ -64,53 +63,43 @@
     <main>
       <div class="faq">
         <h2>Questions fréquentes</h2>
-        <div class="faq-item">
-          <div class="question">
-            <h3>Première visite et inscription</h3>
-            <img src="./assets/icons/less.svg" />
+        <div class="faq-questions">
+          <div class="faq-item">
+            <div class="question red">
+              <h3>Première visite et inscription</h3>
+              <img src="../assets/icons/less.svg" />
+            </div>
+            <div class="answer">
+              <p>
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
           </div>
-          <div class="answer">
-            <p>
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
-              Exercitation veniam consequat sunt nostrud amet.
-            </p>
+          <div class="faq-item">
+            <div class="question">
+              <h3>Les prix et les produits</h3>
+              <img src="../assets/icons/add.svg" />
+            </div>
           </div>
-        </div>
-        <div class="faq-item">
-          <div class="question">
-            <h3>Les prix et les produits</h3>
-            <img src="./assets/icons/add.svg" />
+          <div class="faq-item">
+            <div class="question">
+              <h3>Comment se passe le retrait ?</h3>
+              <img src="../assets/icons/add.svg" />
+            </div>
           </div>
-          <div class="answer">
-            <p></p>
+          <div class="faq-item">
+            <div class="question">
+              <h3>Les prix et les produits</h3>
+              <img src="../assets/icons/add.svg" />
+            </div>
           </div>
-        </div>
-        <div class="faq-item">
-          <div class="question">
-            <h3>Comment se passe le retrait ?</h3>
-            <img src="./assets/icons/add.svg" />
-          </div>
-          <div class="answer">
-            <p></p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <div class="question">
-            <h3>Les prix et les produits</h3>
-            <img src="./assets/icons/add.svg" />
-          </div>
-          <div class="answer">
-            <p></p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <div class="question">
-            <h3>Comment se passe le retrait ?</h3>
-            <img src="./assets/icons/add.svg" />
-          </div>
-          <div class="answer">
-            <p></p>
+          <div class="faq-item">
+            <div class="question no-border">
+              <h3>Comment se passe le retrait ?</h3>
+              <img src="../assets/icons/add.svg" />
+            </div>
           </div>
         </div>
       </div>
@@ -118,7 +107,7 @@
 
     <footer>
       <div class="top blue">
-        <img src="./assets/icons/price-tag.svg" alt="" />
+        <img src="../assets/icons/price-tag.svg" alt="" />
         <div class="top-text">
           <h2>Articles à petit prix</h2>
           <p class="desc">La majorité des produits sont à 1 euro</p>

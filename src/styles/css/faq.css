@@ -1,5 +1,6 @@
+@import './fonts.css';
+@import './fonts.css';
 @import './normalize.css';
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 .desktop {
   display: none !important;
 }
@@ -127,12 +128,10 @@ html {
 }
 
 body {
-  background: #f6f7fc;
+  background: rgb(246, 247, 252);
   -webkit-font-smoothing: antialiased;
-  font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: var(14px);
   color: #2c3e50;
-  margin: 0;
 }
 
 h1,
@@ -149,20 +148,50 @@ h3 {
   font-size: 1.3rem;
 }
 
-.bg-grey {
-  background-color: #f6f7fc;
-}
-
-.bg-blue {
-  background-color: #2d4059;
-}
-
 .red {
   color: #ea5455;
 }
 
-.green {
-  color: #42CC58;
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main h2 {
+  font-size: 2.5rem;
+  margin: 0;
+  padding: 0;
+  padding: 100px 0;
+}
+main .faq {
+  width: 100%;
+  max-width: 800px;
+}
+main .faq h2 {
+  color: #ea5455;
+}
+main .faq .faq-questions {
+  background-color: #e5e5e5;
+  border-radius: 10px;
+  border: 1px solid #000000;
+}
+main .faq .faq-questions .faq-item .question {
+  padding: 20px 40px;
+  border-bottom: 1px solid #000000;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+}
+main .faq .faq-questions .faq-item .no-border {
+  border-bottom: none;
+}
+main .faq .faq-questions .faq-item .answer {
+  border-bottom: 1px solid #000000;
+  padding: 20px 40px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
 }
 
-/*# sourceMappingURL=global.css.map */
+/*# sourceMappingURL=faq.css.map */

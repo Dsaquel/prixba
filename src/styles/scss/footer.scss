@@ -1,0 +1,17 @@
+footer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 80px;
+  grid-template-areas: 'top top top' 'middle middle middle' 'bottom bottom bottom';
+  gap: 20px;
+  .top {
+    grid-area: top;
+  }
+  .middle {
+    grid-area: middle;
+  }
+  .bottom {
+    grid-area: bottom;
+  }
+}
