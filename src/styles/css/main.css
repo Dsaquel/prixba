@@ -221,7 +221,15 @@ footer {
   gap: 20px;
 }
 footer .top {
+  padding: 20px;
+  height: max-content;
   grid-area: top;
+  color: #e5e5e5;
+}
+footer .top .step-footer img {
+  border-radius: 50%;
+  background-color: #c4c4c4;
+  padding: 10px;
 }
 footer .middle {
   grid-area: middle;

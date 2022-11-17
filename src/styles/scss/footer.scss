@@ -6,7 +6,23 @@ footer {
   grid-template-areas: 'top top top' 'middle middle middle' 'bottom bottom bottom';
   gap: 20px;
   .top {
+    padding: 20px;
+    height: max-content;
     grid-area: top;
+    color: $color-text-footer;
+    // position: relative;
+    .step-footer {
+      img {
+        // position: absolute;
+        // transform: rotate(-0.33deg);
+        border-radius: 50%;
+        background-color: $color-bg-footer-img;
+        padding: 10px;
+      }
+      .step-footer-info {
+        
+      }
+    }
   }
   .middle {
     grid-area: middle;
