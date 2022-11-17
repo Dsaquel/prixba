@@ -1,0 +1,26 @@
+.product-card {
+  margin: 0 20px;
+  padding: 25px 25px 10px 25px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  img {
+    max-width: 300px;
+    width: 100%;
+  }
+
+  .item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 10px;
+
+    .item-left {
+      .item-title {
+        margin: 5px 0;
+      }
+    }
+  }
+}
