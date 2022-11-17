@@ -1,0 +1,15 @@
+// styles for desktop
+@media screen and (min-width: 992px) {
+
+  .desktop {
+    display: block !important;
+  }
+
+  .title-bar {
+    .left {
+      display: flex;
+    }
+
+  }
+
+}

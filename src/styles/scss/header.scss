@@ -1,0 +1,47 @@
+.title-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 7px;
+  padding: 14px 22px;
+
+  .right {
+    max-width: 60%;
+    text-align: right;
+  }
+}
+
+.navbar {
+  color: white;
+  font-size: 14px;
+  padding: 30px 30px;
+
+  .right {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 150px);
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+
+
+    >* {
+      width: 135px;
+      margin: 5px 0;
+    }
+
+    img {
+      width: 40px;
+    }
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .link {
+    img {
+      width: 15px;
+    }
+  }
+}
