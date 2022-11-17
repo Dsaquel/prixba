@@ -1,6 +1,6 @@
-@import "./fonts.css";
-@import "./variables.scss";
-@import "./global.scss";
+@import './fonts.css';
+@import './variables.scss';
+@import './global.scss';
 
 main {
   display: flex;
@@ -15,6 +15,9 @@ main {
   .faq {
     width: 100%;
     max-width: 800px;
+    h2 {
+      color: $color-red;
+    }
     .faq-questions {
       background-color: $color-green;
       border-radius: 10px;
@@ -27,6 +30,9 @@ main {
           font-weight: 700;
           display: flex;
           justify-content: space-between;
+        }
+        .no-border {
+          border-bottom: none;
         }
         .answer {
           border-bottom: 1px solid #000000;

@@ -3,7 +3,6 @@
 @import './index.scss';
 @import './normalize.css';
 
-
 html {
   box-sizing: border-box;
 }
@@ -33,4 +32,7 @@ h2 {
 
 h3 {
   font-size: 1.3rem;
+}
+.red {
+  color: $color-red;
 }
