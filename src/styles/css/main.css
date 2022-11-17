@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  background: #f6f7fc;
+  background: rgb(246, 247, 252);
   -webkit-font-smoothing: antialiased;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
@@ -34,7 +34,7 @@ h3 {
 }
 
 .bg-grey {
-  background-color: #f6f7fc;
+  background-color: rgb(246, 247, 252);
 }
 
 .bg-blue {
@@ -170,11 +170,52 @@ section {
   margin: 0 10px;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main h2 {
+  font-size: 2.5rem;
+  margin: 0;
+  padding: 0;
+  padding: 100px 0;
+}
+main .faq {
+  width: 100%;
+  max-width: 800px;
+}
+main .faq h2 {
+  color: #ea5455;
+}
+main .faq .faq-questions {
+  background-color: #e5e5e5;
+  border-radius: 10px;
+  border: 1px solid #000000;
+}
+main .faq .faq-questions .faq-item .question {
+  padding: 20px 40px;
+  border-bottom: 1px solid #000000;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+}
+main .faq .faq-questions .faq-item .no-border {
+  border-bottom: none;
+}
+main .faq .faq-questions .faq-item .answer {
+  border-bottom: 1px solid #000000;
+  padding: 20px 40px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
 @media screen and (min-width: 992px) {
   .desktop {
     display: block !important;
   }
-
   .title-bar .left {
     display: flex;
   }
