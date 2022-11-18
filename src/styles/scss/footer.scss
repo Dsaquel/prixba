@@ -10,12 +10,15 @@ footer {
   gap: 20px;
   .top {
     grid-area: top;
-    padding: 20px;
+    padding: 60px 20px;
     height: max-content;
     color: $color-text-footer;
     background-color: $color-blue;
+
     .step-footer {
       img {
+        width: 94px;
+        height: 94px;
         background-color: $color-bg-footer-img;
         border-radius: 50%;
         padding: 10px;
@@ -45,6 +48,7 @@ footer {
       }
     }
   }
+
   .bottom {
     grid-area: bottom;
     text-align: center;
@@ -61,3 +65,5 @@ footer {
     }
   }
 }
+
+// 650px => desktop
