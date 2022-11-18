@@ -1,244 +1,277 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/css/main.css" />
-    <title>prixba</title>
-  </head>
 
-  <body>
-    <header>
-      <div class="title-bar bg-grey">
-        <div class="logo left">
-          <img src="./assets/icons/logo.svg" />
-          <div class="name desktop">PrixBa</div>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/css/main.css" />
+  <title>prixba</title>
+</head>
 
-        <div class="right">
-          <h1>Tous vos besoins à petits prix dans la métropole Lilloise</h1>
-          <div class="info-steps desktop">
-            <div class="step">
-              <div class="step-number">1</div>
-              <p>Choix et commande des articles</p>
-            </div>
-            <div class="step">
-              <div class="step-number">2</div>
-              <p>Retrait des articles</p>
-            </div>
-            <div class="step">
-              <div class="step-number">3</div>
-              <p>Paiement des articles</p>
-            </div>
+<body>
+  <header>
+    <div class="title-bar bg-grey">
+      <div class="logo left">
+        <img src="./assets/icons/logo.svg" />
+        <div class="name desktop">PrixBa</div>
+      </div>
+
+      <div class="right">
+        <h1>Tous vos besoins à petits prix dans la métropole Lilloise</h1>
+        <div class="info-steps desktop">
+          <div class="step">
+            <div class="step-number">1</div>
+            <p>Choix et commande des articles</p>
+          </div>
+          <div class="step">
+            <div class="step-number">2</div>
+            <p>Retrait des articles</p>
+          </div>
+          <div class="step">
+            <div class="step-number">3</div>
+            <p>Paiement des articles</p>
           </div>
         </div>
       </div>
-      <div class="navbar bg-blue">
-        <div class="left desktop">
-          <select>
-            <option value="bricolage"></option>
-            <option value="multimédia"></option>
-            <option value="cuisine"></option>
-            <option value="Entretien"></option>
-            <option value="Outillage"></option>
-          </select>
+    </div>
+    <div class="navbar bg-blue">
+      <div class="left desktop">
+        <select class="btn">
+          <option value="">Catégories</option>
+          <option value="bricolage">bricolage</option>
+          <option value="multimédia">multimédia</option>
+          <option value="cuisine">cuisine</option>
+          <option value="Entretien">Entretien</option>
+          <option value="Outillage">Outillage</option>
+        </select>
 
-          <input type="text" name="" id="" />
+        <input type="text" name="" id="">
 
-          <button type="button" class="submit red">rechercher</button>
+        <button type="button" class="btn btn-red">rechercher</button>
+      </div>
+
+      <div class="right">
+        <a class="link" href="">Catalogue</a>
+        <a class="link" href="">Questions fréquentes</a>
+        <div class="link">
+          Connexion
+          <span><img src="./assets/img/down-arrow.svg" /></span>
+        </div>
+        <img src="./assets/icons/shopping-cart.svg" />
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="best-sellers">
+      <div class="section-title red">
+        <h2>Meilleures ventes</h2>
+      </div>
+
+      <div class="product-cards">
+        <div class="previous-arrow">
+          <img src="./assets/icons/back-arrow.svg" alt="" />
         </div>
 
-        <div class="right">
-          <a class="link" href="">Catalogue</a>
-          <a class="link" href="">Questions fréquentes</a>
-          <div class="link">
-            Connexion
-            <span><img src="./assets/img/down-arrow.svg" /></span>
+        <div class="product-card">
+          <!-- TODO add src -->
+          <img src="./assets/img/mask.png" alt="" />
+          <div class="item">
+            <div class="item-left">
+              <div class="item-title">Marteau</div>
+              <div class="item-price">1€</div>
+            </div>
+            <div class="item-right green">En Stock</div>
           </div>
-          <img src="./assets/icons/shopping-cart.svg" />
+        </div>
+
+        <div class="product-card desktop">
+          <!-- TODO add src -->
+          <img src="./assets/img/mask.png" alt="" />
+          <div class="item">
+            <div class="item-left">
+              <div class="item-title">Marteau</div>
+              <div class="item-price">1€</div>
+            </div>
+            <div class="item-right green">En Stock</div>
+          </div>
+        </div>
+
+        <div class="product-card desktop">
+          <!-- TODO add src -->
+          <img src="./assets/img/mask.png" alt="" />
+          <div class="item">
+            <div class="item-left">
+              <div class="item-title">Marteau</div>
+              <div class="item-price">1€</div>
+            </div>
+            <div class="item-right green">En Stock</div>
+          </div>
+        </div>
+
+        <div class="product-card desktop">
+          <!-- TODO add test -->
+          <img src="./assets/img/mask.png" alt="" />
+          <div class="item">
+            <div class="item-left">
+              <div class="item-title">Marteau</div>
+              <div class="item-price">1€</div>
+            </div>
+            <div class="item-right green">En Stock</div>
+          </div>
+        </div>
+
+        <div class="next-arrow">
+          <img src="./assets/icons/forward-arrow.svg" alt="" />
         </div>
       </div>
-    </header>
+    </section>
 
-    <main>
-      <section id="best-sellers">
-        <div class="section-title red">
-          <h2>Meilleures ventes</h2>
+    <section id="discover">
+      <div class="section-title red">
+        <h2>Découvrez nos offres par catégories</h2>
+        <h3>Voir tout</h3>
+      </div>
+
+      <div class="category-cards">
+        <div class="category-card bg-blue">
+          <img src="./assets/icons/tool.svg" alt="" />
+          <h4>Bricolage</h4>
         </div>
-
-        <div class="section-content">
-          <div class="previous-arrow">
-            <img src="./assets/icons/back-arrow.svg" alt="" />
-          </div>
-
-          <div class="product-card">
-            <!-- TODO add src -->
-            <img src="./assets/img/mask.png" alt="" />
-            <div class="item">
-              <div class="item-left">
-                <div class="item-title">Marteau</div>
-                <div class="item-price">1€</div>
-              </div>
-              <div class="item-right green">En Stock</div>
-            </div>
-          </div>
-
-          <div class="product-card desktop">
-            <!-- TODO add src -->
-            <img src="./assets/img/mask.png" alt="" />
-            <div class="item">
-              <div class="item-left">
-                <div class="item-title">Marteau</div>
-                <div class="item-price"></div>
-              </div>
-              <div class="item-right">En Stock</div>
-            </div>
-          </div>
-
-          <div class="product-card desktop">
-            <!-- TODO add src -->
-            <img src="./assets/img/mask.png" alt="" />
-            <div class="item">
-              <div class="item-left">
-                <div class="item-title">Marteau</div>
-                <div class="item-price"></div>
-              </div>
-              <div class="item-right">En Stock</div>
-            </div>
-          </div>
-
-          <div class="product-card desktop">
-            <!-- TODO add test -->
-            <img src="./assets/img/mask.png" alt="" />
-            <div class="item">
-              <div class="item-left">
-                <div class="item-title">Marteau</div>
-                <div class="item-price"></div>
-              </div>
-              <div class="item-right">En Stock</div>
-            </div>
-          </div>
-
-          <div class="next-arrow">
-            <img src="./assets/icons/forward-arrow.svg" alt="" />
-          </div>
+        <div class="category-card bg-blue">
+          <img src="./assets/icons/lightbulb.svg" alt="" />
+          <h4>Multimédia</h4>
         </div>
-      </section>
-
-      <section id="discover">
-        <div class="section-title red">
-          <h2>Découvrez nos offres par catégories</h2>
-          <h3>Voir tout</h3>
+        <div class="category-card bg-blue">
+          <img src="./assets/icons/cutlery.svg" alt="" />
+          <h4>Cuisine</h4>
         </div>
-
-        <div class="category-cards">
-          <div class="category-card bg-blue">
-            <img src="./assets/icons/tool.svg" alt="" />
-          </div>
-          <div class="category-card bg-blue">
-            <img src="./assets/icons/lightbulb.svg" alt="" />
-          </div>
-          <div class="category-card bg-blue">
-            <img src="./assets/icons/cutlery.svg" alt="" />
-          </div>
-          <div class="category-card bg-blue">
-            <img src="./assets/icons/lightbulb.svg" alt="" />
-          </div>
-          <div class="category-card bg-blue">
-            <img src="./assets/icons/lightbulb.svg" alt="" />
-          </div>
-          <div class="category-card bg-blue">
-            <img src="./assets/icons/lightbulb.svg" alt="" />
-          </div>
-          <div class="category-card bg-blue">
-            <img src="./assets/icons/lightbulb.svg" alt="" />
-          </div>
-          <div class="category-card bg-blue">
-            <img src="./assets/icons/lightbulb.svg" alt="" />
-          </div>
-          <div class="category-card bg-blue">
-            <img src="./assets/icons/lightbulb.svg" alt="" />
-          </div>
-          <div class="category-card bg-blue">
-            <img src="./assets/icons/lightbulb.svg" alt="" />
-          </div>
-          <div class="category-card bg-blue">
-            <img src="./assets/icons/lightbulb.svg" alt="" />
-          </div>
-          <div class="category-card bg-blue">
-            <img src="./assets/icons/lightbulb.svg" alt="" />
-          </div>
+        <div class="category-card bg-blue">
+          <img src="./assets/icons/lightbulb.svg" alt="" />
+          <h4>Multimédia</h4>
         </div>
-      </section>
-
-      <section id="options">
-        <div class="section-title red">
-          <h2>Avoir le choix chez Prix Marché</h2>
+        <div class="category-card bg-blue">
+          <img src="./assets/icons/lightbulb.svg" alt="" />
+          <h4>Multimédia</h4>
         </div>
+        <div class="category-card bg-blue">
+          <img src="./assets/icons/lightbulb.svg" alt="" />
+          <h4>Multimédia</h4>
+        </div>
+        <div class="category-card bg-blue">
+          <img src="./assets/icons/lightbulb.svg" alt="" />
+          <h4>Multimédia</h4>
+        </div>
+        <div class="category-card bg-blue">
+          <img src="./assets/icons/lightbulb.svg" alt="" />
+          <h4>Multimédia</h4>
+        </div>
+        <div class="category-card bg-blue">
+          <img src="./assets/icons/lightbulb.svg" alt="" />
+          <h4>Multimédia</h4>
+        </div>
+        <div class="category-card bg-blue">
+          <img src="./assets/icons/lightbulb.svg" alt="" />
+          <h4>Multimédia</h4>
+        </div>
+        <div class="category-card bg-blue">
+          <img src="./assets/icons/lightbulb.svg" alt="" />
+          <h4>Multimédia</h4>
+        </div>
+        <div class="category-card bg-blue">
+          <img src="./assets/icons/lightbulb.svg" alt="">
+          <h4>Multimédia</h4>
+        </div>
+      </div>
+    </section>
 
-        <div class="choice-cards red">
-          <div class="choice-card">
-            <img src="./assets/img/earphones.png" alt="" />
-          </div>
-          <h3>Je choisis</h3>
+    <section id="options">
+      <div class="section-title red">
+        <h2>Avoir le choix chez Prix Marché</h2>
+      </div>
 
-          <div class="choice-card">
-            <img src="./assets/img/earphones.png" alt="" />
-          </div>
-          <h3>Je choisis</h3>
-
-          <div class="choice-card">
-            <img src="./assets/img/earphones.png" alt="" />
-          </div>
+      <div class="choice-cards red">
+        <div class="choice-card">
+          <img src="./assets/img/earphones.png" alt="" />
           <h3>Je choisis</h3>
         </div>
-      </section>
-    </main>
 
-    <footer>
-      <div class="top bg-blue">
-        <img src="./assets/icons/price-tag.svg" alt="" />
-        <div class="top-text">
+
+        <div class="choice-card">
+          <img src="./assets/img/earphones.png" alt="" />
+          <h3>Je choisis</h3>
+        </div>
+
+
+        <div class="choice-card">
+          <img src="./assets/img/earphones.png" alt="" />
+          <h3>Je choisis</h3>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="top">
+      <div class="step-footer">
+        <img src="./assets/icons/price-tag.svg" />
+        <div class="step-footer-info">
           <h2>Articles à petit prix</h2>
-          <p class="desc">La majorité des produits sont à 1 euro</p>
+          <div>La majorité des produits sont à 1 euro</div>
         </div>
+      </div>
 
-        <div class="top-text">
+      <div class="step-footer">
+        <img src="./assets/icons/price-tag.svg" />
+        <div class="step-footer-info">
           <h2>Achats sans soucis</h2>
-          <p class="desc">Chaque commande est fournie main à main</p>
+          <div>Chaque commande est fournie main à main</div>
         </div>
+      </div>
 
-        <div class="top-text">
+      <div class="step-footer">
+        <img src="./assets/icons/price-tag.svg" />
+        <div class="step-footer-info">
           <h2>Paiement sécurisé</h2>
-          <p class="desc">Payez sans vous soucier lors du retrait</p>
+          <div>Payez sans vous soucier lors du retrait</div>
         </div>
+      </div>
 
-        <div class="top-text">
+      <div class="step-footer">
+        <img src="./assets/icons/price-tag.svg" />
+        <div class="step-footer-info">
           <h2>Livraison Lilloise</h2>
-          <p class="desc">
+          <div>
             Ce que vous voulez, préparé pour les lillois et les alentours
-          </p>
+          </div>
         </div>
       </div>
+    </div>
 
-      <div class="mid">
-        <div class="left">
-          <a href="">Accueil</a>
-          <a href="">Catalogue</a>
-          <a href="">Questions fréquentes</a>
-        </div>
-        <div class="right">
-          <a href="">Première visite</a>
-          <a href="">Livraison retrait</a>
-          <a href="">Contact</a>
-        </div>
+    <div class="middle">
+      <div class="left">
+        <a href="">Accueill</a>
+        <a href="">Catalogue</a>
+        <a href="">Questions fréquentes</a>
       </div>
+      <div class="right">
+        <a href="">Première visite</a>
+        <a href="">Livraison retrait</a>
+        <a href="">Contact</a>
+      </div>
+    </div>
 
-      <div class="bottom bg-blue">
-        <a href="">Mention légales |</a>
-        <a href=""> Conditions générales d'utilisation et de vente</a>
-      </div>
-    </footer>
-  </body>
+    <div class="bottom bg-blue">
+      <a href="">Mention légales</a>
+      <span>|</span>
+      <a href="">Conditions générales d'utilisation et de vente</a>
+    </div>
+  </footer>
+</body>
+
+</html>
+</body>
+
 </html>

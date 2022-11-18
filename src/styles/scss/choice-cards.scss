@@ -2,6 +2,15 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  text-align: center;
+
+  .choice-card {
+    margin: 0 10px;
+  }
+
+  img {
+    max-width: 300px;
+  }
 
   h3 {
     margin-bottom: 60px;
