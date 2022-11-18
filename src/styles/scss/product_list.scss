@@ -1,0 +1,124 @@
+main {
+  display: grid;
+  grid-template-columns: 27% 73%;
+  width: 80vw;
+  align-items: flex-start;
+  margin: 30px auto;
+  #categories {
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 70px;
+    #categorie {
+      display: flex;
+      margin-top: 4px;
+      h2 {
+        width: 80px;
+        margin: 0;
+        padding: 0;
+        font-size: 1rem;
+        font-weight: bold;
+        margin-left: 5px;
+      }
+      img {
+        width: 15px;
+        height: 15px;
+        margin: 2px 0 0 0;
+        padding: 0;
+      }
+    }
+    .list-category {
+      width: 110px;
+      margin-right: 7px;
+      li {
+        list-style: url('../../assets/icons/hallow-dot-grey.svg');
+        padding-bottom: 6px;
+        a {
+          text-decoration: none;
+        }
+        .grey {
+          color: $color-text-soft;
+        }
+      }
+      .first {
+        list-style: url('../../assets/icons/full-dot-red.svg');
+      }
+    }
+  }
+  #content {
+    margin-left: 35px;
+    #top-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      h2 {
+        margin: 0;
+        padding: 0;
+        font-size: 1rem;
+      }
+      #sort {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        button {
+          margin-left: 10px;
+          background-color: transparent;
+          border: none;
+          img {
+            width: 25px;
+            height: 25px;
+          }
+        }
+      }
+      select {
+        background-color: red;
+        color: white;
+        width: 150px;
+        padding: 5px;
+        border-radius: 5px;
+        option {
+          background-color: white;
+          color: black;
+        }
+      }
+    }
+    .product-card {
+      border-radius: 10px;
+      box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    }
+    .long {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: left;
+      width: 100%;
+      margin: 0;
+      margin-bottom: 30px;
+      .item {
+        display: flex;
+        padding-left: 60px;
+        height: 100px;
+      }
+      .item-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 0;
+        height: 100%;
+      }
+    }
+    #cards-content {
+      display: flex;
+      flex-wrap: nowrap;
+      .little-card {
+        display: flex;
+        width: 33%;
+        margin: 0;
+        margin-bottom: 30px;
+        margin-left: 10px;
+      }
+    }
+  }
+}
