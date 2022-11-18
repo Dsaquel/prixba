@@ -2,32 +2,62 @@ footer {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 80px;
-  grid-template-areas: 'top top top' 'middle middle middle' 'bottom bottom bottom';
+  grid-template-rows: auto;
+  grid-template-areas:
+    'top top top'
+    'middle middle middle'
+    'bottom bottom bottom';
   gap: 20px;
   .top {
+    grid-area: top;
     padding: 20px;
     height: max-content;
-    grid-area: top;
     color: $color-text-footer;
-    // position: relative;
+    background-color: $color-blue;
     .step-footer {
       img {
-        // position: absolute;
-        // transform: rotate(-0.33deg);
-        border-radius: 50%;
         background-color: $color-bg-footer-img;
+        border-radius: 50%;
         padding: 10px;
       }
       .step-footer-info {
-        
+        margin-bottom: 10px;
+        h2 {
+          margin: 0;
+        }
       }
     }
   }
   .middle {
+    display: grid;
     grid-area: middle;
+    gap: 50px;
+    .left,
+    .right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      & > a {
+        text-decoration: none;
+        font-size: 36px;
+        color: $color-blue;
+      }
+    }
   }
   .bottom {
     grid-area: bottom;
+    text-align: center;
+    padding: 40px;
+    font-size: 19px;
+    background-color: $color-blue;
+    & > a {
+      color: $color-text-footer;
+      text-decoration: none;
+    }
+    span {
+      color: $color-text-footer;
+      font-weight: 500;
+    }
   }
 }

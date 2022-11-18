@@ -216,26 +216,60 @@ footer {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 80px;
+  grid-template-rows: auto;
   grid-template-areas: "top top top" "middle middle middle" "bottom bottom bottom";
   gap: 20px;
 }
 footer .top {
+  grid-area: top;
   padding: 20px;
   height: max-content;
-  grid-area: top;
   color: #e5e5e5;
+  background-color: #2d4059;
 }
 footer .top .step-footer img {
-  border-radius: 50%;
   background-color: #c4c4c4;
+  border-radius: 50%;
   padding: 10px;
 }
+footer .top .step-footer .step-footer-info {
+  margin-bottom: 10px;
+}
+footer .top .step-footer .step-footer-info h2 {
+  margin: 0;
+}
 footer .middle {
+  display: grid;
   grid-area: middle;
+  gap: 50px;
+}
+footer .middle .left,
+footer .middle .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+footer .middle .left > a,
+footer .middle .right > a {
+  text-decoration: none;
+  font-size: 36px;
+  color: #2d4059;
 }
 footer .bottom {
   grid-area: bottom;
+  text-align: center;
+  padding: 40px;
+  font-size: 19px;
+  background-color: #2d4059;
+}
+footer .bottom > a {
+  color: #e5e5e5;
+  text-decoration: none;
+}
+footer .bottom span {
+  color: #e5e5e5;
+  font-weight: 500;
 }
 
 @media screen and (min-width: 992px) {
