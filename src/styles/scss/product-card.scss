@@ -2,13 +2,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 10px;
+  gap: 0 20px;
 
   .product-card {
-    margin: 0 20px;
     padding: 25px 25px 10px 25px;
     background-color: white;
     justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 
     .desktop {
       display: none !important;
