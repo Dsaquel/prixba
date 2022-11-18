@@ -4,13 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="../styles/css/main.css" />
+    <title>PrixBa</title>
   </head>
   <body>
     <header>
-      <div id="title-bar grey">
+      <div class="title-bar bg-grey">
         <div class="logo left">
-          <img src="./assets/icons/logo.svg" />
+          <a href="../index.html">
+            <img src="../assets/icons/logo.svg" />
+          </a>
           <div class="name desktop">PrixBa</div>
         </div>
 
@@ -32,9 +35,7 @@
           </div>
         </div>
       </div>
-      <img src="./assets/icons/chevron-down.svg" />
-      <img src="./assets/icons/lightbulb.svg" />
-      <div class="navbar blue">
+      <div class="navbar bg-blue">
         <div class="left desktop">
           <select>
             <option value="bricolage"></option>
@@ -50,103 +51,105 @@
         </div>
 
         <div class="right">
-          <a class="link" href="">Catalogue</a>
+          <a class="link" href="../pages/product_list.html">Catalogue</a>
           <a class="link" href="">Questions fréquentes</a>
           <div class="link">
             Connexion
-            <span><img src="./assets/icons/chevron-down.svg" /></span>
+            <span><img src="../assets/icons/down-arrow.svg" /></span>
           </div>
-          <img src="./assets/icons/shopping-cart.svg" />
+          <img src="../assets/icons/shopping-cart.svg" />
         </div>
       </div>
     </header>
 
     <main>
-      <div class="faq">
-        <h2>Questions fréquentes</h2>
-        <div class="faq-item">
-          <div class="question">
-            <h3>Première visite et inscription</h3>
-            <img src="./assets/icons/less.svg" />
-          </div>
-          <div class="answer">
-            <p>
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
-              Exercitation veniam consequat sunt nostrud amet.
-            </p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <div class="question">
-            <h3>Les prix et les produits</h3>
-            <img src="./assets/icons/add.svg" />
-          </div>
-          <div class="answer">
-            <p></p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <div class="question">
-            <h3>Comment se passe le retrait ?</h3>
-            <img src="./assets/icons/add.svg" />
-          </div>
-          <div class="answer">
-            <p></p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <div class="question">
-            <h3>Les prix et les produits</h3>
-            <img src="./assets/icons/add.svg" />
-          </div>
-          <div class="answer">
-            <p></p>
-          </div>
-        </div>
-        <div class="faq-item">
-          <div class="question">
-            <h3>Comment se passe le retrait ?</h3>
-            <img src="./assets/icons/add.svg" />
-          </div>
-          <div class="answer">
-            <p></p>
+      <div class="content-faq">
+        <div class="faq">
+          <h2>Questions fréquentes</h2>
+          <div class="faq-questions">
+            <div class="faq-item">
+              <div class="question red">
+                <h3>Première visite et inscription</h3>
+                <img src="../assets/icons/less.svg" />
+              </div>
+              <div class="answer">
+                <p>
+                  Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                  amet sint. Velit officia consequat duis enim velit mollit.
+                  Exercitation veniam consequat sunt nostrud amet.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <div class="question">
+                <h3>Les prix et les produits</h3>
+                <img src="../assets/icons/add.svg" />
+              </div>
+            </div>
+            <div class="faq-item">
+              <div class="question">
+                <h3>Comment se passe le retrait ?</h3>
+                <img src="../assets/icons/add.svg" />
+              </div>
+            </div>
+            <div class="faq-item">
+              <div class="question">
+                <h3>Les prix et les produits</h3>
+                <img src="../assets/icons/add.svg" />
+              </div>
+            </div>
+            <div class="faq-item">
+              <div class="question no-border">
+                <h3>Comment se passe le retrait ?</h3>
+                <img src="../assets/icons/add.svg" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </main>
 
     <footer>
-      <div class="top blue">
-        <img src="./assets/icons/price-tag.svg" alt="" />
-        <div class="top-text">
-          <h2>Articles à petit prix</h2>
-          <p class="desc">La majorité des produits sont à 1 euro</p>
+      <div class="top">
+        <div class="step-footer">
+          <img src="../assets/icons/price-tag.svg" />
+          <div class="step-footer-info">
+            <h2>Articles à petit prix</h2>
+            <div>La majorité des produits sont à 1 euro</div>
+          </div>
         </div>
 
-        <div class="top-text">
-          <h2>Achats sans soucis</h2>
-          <p class="desc">Chaque commande est fournie main à main</p>
+        <div class="step-footer">
+          <img src="../assets/icons/money-bill.svg" />
+          <div class="step-footer-info">
+            <h2>Achats sans soucis</h2>
+            <div>Chaque commande est fournie main à main</div>
+          </div>
         </div>
 
-        <div class="top-text">
-          <h2>Paiement sécurisé</h2>
-          <p class="desc">Payez sans vous soucier lors du retrait</p>
+        <div class="step-footer">
+          <img src="../assets/icons/credit-card.svg" />
+          <div class="step-footer-info">
+            <h2>Paiement sécurisé</h2>
+            <div>Payez sans vous soucier lors du retrait</div>
+          </div>
         </div>
 
-        <div class="top-text">
-          <h2>Livraison Lilloise</h2>
-          <p class="desc">
-            Ce que vous voulez, préparé pour les lillois et les alentours
-          </p>
+        <div class="step-footer">
+          <img src="../assets/icons/truck.svg" />
+          <div class="step-footer-info">
+            <h2>Livraison Lilloise</h2>
+            <div>
+              Ce que vous voulez, préparé pour les lillois et les alentours
+            </div>
+          </div>
         </div>
       </div>
-
-      <div class="mid">
+      <div class="middle">
         <div class="left">
-          <a href="">Accueil</a>
-          <a href="">Catalogue</a>
-          <a href="">Questions fréquentes</a>
+          <a href="../index.html">Accueill</a>
+          <a href="../pages/product_list.html">Catalogue</a>
+          <a href="#">Questions fréquentes</a>
         </div>
         <div class="right">
           <a href="">Première visite</a>
@@ -155,9 +158,10 @@
         </div>
       </div>
 
-      <div class="bottom blue">
-        <a href="">Mention légales |</a>
-        <a href=""> Conditions générales d'utilisation et de vente</a>
+      <div class="bottom bg-blue">
+        <a href="">Mention légales</a>
+        <span>|</span>
+        <a href="">Conditions générales d'utilisation et de vente</a>
       </div>
     </footer>
   </body>

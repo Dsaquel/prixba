@@ -1,0 +1,27 @@
+.category-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 150px);
+  gap: 10px;
+  justify-content: center;
+
+  .category-card {
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    h4 {
+      margin: 10px 0 0 0;
+      font-size: 1.2rem;
+    }
+
+    img {
+      width: 50px;
+    }
+  }
+}

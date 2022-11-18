@@ -1,0 +1,41 @@
+// styles for desktop
+@media screen and (min-width: 992px) {
+  .desktop {
+    display: block !important;
+  }
+
+  .title-bar {
+    .left {
+      display: flex;
+    }
+  }
+}
+
+// footer responsive laptops tablets
+@media screen and (min-width: 768px) {
+  footer {
+    .top {
+      display: flex;
+      justify-content: space-evenly;
+      .step-footer {
+        display: flex;
+        align-items: center;
+        h2 {
+          margin-bottom: 10px;
+        }
+        img {
+          height: 36px;
+          width: 36px;
+          margin: 0px 20px;
+        }
+        width: 200px;
+        word-break: break-word;
+      }
+    }
+  }
+}
+@media screen and (min-width: 992px) {
+  footer > .top > .step-footer {
+    width: 400px;
+  }
+}

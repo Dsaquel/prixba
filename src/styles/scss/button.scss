@@ -1,0 +1,13 @@
+.btn {
+  text-align: center;
+  border-radius: 7px;
+  border-width: 0;
+  width: 100px;
+  height: 30px;
+  background-color: $color-grey;
+}
+
+.btn-red {
+  background-color: $color-red;
+  color: white;
+}
