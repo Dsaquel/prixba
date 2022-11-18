@@ -295,12 +295,14 @@ footer {
 }
 footer .top {
   grid-area: top;
-  padding: 20px;
+  padding: 60px 20px;
   height: max-content;
   color: #e5e5e5;
   background-color: #2d4059;
 }
 footer .top .step-footer img {
+  width: 94px;
+  height: 94px;
   background-color: #c4c4c4;
   border-radius: 50%;
   padding: 10px;
@@ -351,6 +353,31 @@ footer .bottom span {
   }
   .title-bar .left {
     display: flex;
+  }
+}
+@media screen and (min-width: 768px) {
+  footer .top {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  footer .top .step-footer {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    word-break: break-word;
+  }
+  footer .top .step-footer h2 {
+    margin-bottom: 10px;
+  }
+  footer .top .step-footer img {
+    height: 36px;
+    width: 36px;
+    margin: 0px 20px;
+  }
+}
+@media screen and (min-width: 992px) {
+  footer > .top > .step-footer {
+    width: 400px;
   }
 }
 
