@@ -215,7 +215,8 @@ main .faq .faq-questions .faq-item .answer {
 main {
   display: grid;
   grid-template-columns: 27% 73%;
-  width: 80vw;
+  max-width: 100%;
+  padding: 0 50px;
   align-items: flex-start;
   margin: 30px auto;
 }
@@ -299,42 +300,6 @@ main #content #top-content select {
 main #content #top-content select option {
   background-color: white;
   color: black;
-}
-main #content .product-card {
-  border-radius: 10px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-}
-main #content .long {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: left;
-  width: 100%;
-  margin: 0;
-  margin-bottom: 30px;
-}
-main #content .long .item {
-  display: flex;
-  padding-left: 60px;
-  height: 100px;
-}
-main #content .long .item-left {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  padding-left: 0;
-  height: 100%;
-}
-main #content #cards-content {
-  display: flex;
-  flex-wrap: nowrap;
-}
-main #content #cards-content .little-card {
-  display: flex;
-  width: 33%;
-  margin: 0;
-  margin-bottom: 30px;
-  margin-left: 10px;
 }
 
 @media screen and (min-width: 992px) {
